@@ -1,4 +1,4 @@
-# Azure AKS Terraform
+# Azure AKS Infrastructure
 
 Terraform configuration for building an Azure Kubernetes Service environment.
 
@@ -27,4 +27,3 @@ terraform init
 terraform plan
 terraform apply
 ```
-
