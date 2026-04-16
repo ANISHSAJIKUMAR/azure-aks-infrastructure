@@ -33,3 +33,8 @@ terraform apply
 - Format the Terraform files before opening a PR.
 - Run `terraform validate` to catch module or syntax issues early.
 - Review the plan output before applying anything to Azure.
+
+## Usage notes
+
+- Keep Terraform state local unless you have remote state configured.
+- Review the plan carefully before applying changes to Azure.
