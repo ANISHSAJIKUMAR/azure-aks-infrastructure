@@ -27,3 +27,9 @@ terraform init
 terraform plan
 terraform apply
 ```
+
+## Validation checklist
+
+- Format the Terraform files before opening a PR.
+- Run `terraform validate` to catch module or syntax issues early.
+- Review the plan output before applying anything to Azure.
